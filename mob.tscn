@@ -48,7 +48,7 @@ animations = [{
 radius = 42.0
 height = 84.0
 
-[node name="Mob" type="RigidBody2D" unique_id=1894451409]
+[node name="Mob" type="RigidBody2D" unique_id=1894451409 groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_1qmh0")
@@ -57,7 +57,7 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1099261199]
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_jfba5")
-animation = &"fly"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=692199927]
 shape = SubResource("CapsuleShape2D_g4v7s")
