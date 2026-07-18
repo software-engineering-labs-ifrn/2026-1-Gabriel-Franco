@@ -49,17 +49,9 @@ Desenvolver uma aplicação em GDScript aplicando conceitos de:
 
 Quando o Player colide com um inimigo, ele emite o sinal hit. A cena principal (Main) está escutando esse sinal e reage chamando a função de game_over().
 
-### Composite (Estrutural)
-
-A cena Main é o nó pai. Ela gerencia nós filhos que são objetos individuais (como o Player, HUD, ScoreTimer) e também nós que geram outros objetos (como as instâncias dos inimigos). Todos herdam de Node, compartilhando funções básicas como _process() ou _ready().
-
 ### Factory Method / Abstract Factory (Criacional)
 
 o script da cena Main, você exporta uma variável do tipo PackedScene para carregar o arquivo do inimigo (Mob.tscn). Quando o timer zera, o código faz mob_scene.instantiate() para fabricar uma nova cópia do inimigo na memória.
-
-### Prototype (Criacional)
-
-A cena Mob criada na documentação funciona como o protótipo do inimigo. Cada vez que um novo creep entra na tela, a Godot clona aquele protótipo original em vez de redefinir o objeto do zero.
 
 ---
 
