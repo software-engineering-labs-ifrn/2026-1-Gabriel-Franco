@@ -52,6 +52,7 @@ A cena hud.gd mostra uma IU simples para que o jogo mostre o tempo vivido.
 ### ✅ Observer
 
 A cena `main.gd` finaliza o jogo quando o jogado encosta num inimigo realiza o `gameover()`
+
 ---
 
 
