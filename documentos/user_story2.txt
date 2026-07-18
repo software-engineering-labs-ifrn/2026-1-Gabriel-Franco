@@ -1,0 +1,3 @@
+Como o personagem principal na tela,
+Eu quero me mover nas quatro direções usando o teclado (setas ou WASD),
+Para que eu possa desviar dos inimigos e aumentar minha pontuação ao longo do tempo. 

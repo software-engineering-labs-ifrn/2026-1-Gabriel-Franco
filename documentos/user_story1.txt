@@ -1,0 +1,3 @@
+Como um jogador casual,
+Eu quero clicar em um botão de "Start" na tela inicial,
+Para que a partida comece e os inimigos comecem a surgir. 
